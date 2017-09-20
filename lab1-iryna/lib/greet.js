@@ -1,4 +1,8 @@
 'use strict';
-const arithmetic = require('./lib/arithmetic.js');
-const name = "Person";
-console.log("Hello " + name);
+
+module.exports = function(name){
+  if (isNaN(name)){
+    return 'Hello ' + name;
+  }
+  else return 'null';
+};
