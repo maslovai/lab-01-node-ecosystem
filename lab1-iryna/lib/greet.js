@@ -2,7 +2,7 @@
 
 module.exports = function(name){
   if (isNaN(name)){
-    return 'Hello ' + name;
+    return 'hello ' + name;
   }
   else return 'null';
 };
